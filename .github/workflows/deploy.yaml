@@ -1,6 +1,6 @@
 name: "Hola mundo"
 
-on:
+on: # Trigger del workflow
   push:
     branches: ["main"]
 
@@ -12,3 +12,4 @@ jobs:
       - run: echo "Correr migraciones"
       - run: echo "Generar binario"
       - run: echo "publicar versión"
+      - run: echo "Hola desde QA"
